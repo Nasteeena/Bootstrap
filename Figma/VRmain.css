@@ -1,0 +1,11 @@
+.btn{
+    background-color: #5222D0;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Intro;
+    border-radius: 100px;
+    width: 115px;
+    height: 38px;
+    line-height: 13px;
+}

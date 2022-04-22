@@ -1,0 +1,18 @@
+.heading,
+.btn-primary_grey{
+    text-transform: capitalize;
+}
+.header{
+    padding: 50px;
+    margin: 20px;
+    background-color: rgb(211, 211, 211);
+}
+.btn-primary_grey{
+    padding: 15px;
+    background-color: lightgray;
+    text-align: center;
+}
+.card-title,
+.card-text{
+    text-align: center;
+}
