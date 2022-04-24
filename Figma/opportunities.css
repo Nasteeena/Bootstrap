@@ -1,0 +1,96 @@
+
+        @font-face {
+    font-family: 'Intro';
+    src: url('Intro.woff2') format('woff2'),
+        url('Intro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+        body{
+            font-family: 'Roboto Slab', serif;
+            color: #000000;
+        }
+        h1,
+        h2,
+        .btn,
+        .main-heading,
+        .logo{
+            font-family: Intro;
+        }
+        h2{
+            font-size: 30px;
+        }
+        .btn{
+    background-color: #5222D0;
+    color: white;
+    font-family: Intro;
+    border-radius: 100px;
+    padding-left: 15px;
+    }
+        .btn-card{
+    font-size: 10px;
+    font-weight: 400;
+    width: 115px;
+    height: 38px;
+    position: relative;
+    left: 50px;
+    }
+.logo{
+    display: block;
+    text-transform: uppercase;
+
+}
+.logo-container{
+    margin-top: 50px;
+}
+        .main{
+        margin-top: 90px;
+        }
+        .main-heading{
+            padding-bottom: 14px;
+            font-size: 60px;
+            font-weight: 400;
+            line-height: 72px;
+        }
+        .nav-link{
+            font-family: inherit;
+            color: #000000;
+        }
+        .nav-item{
+            padding-right: 34px;
+        }
+        .card-img-top_background{
+            background-image: url(image/Rectangle\ 10.png); width: 19rem; height: 13rem;
+        }
+        .card-border{
+            border: 1px solid #EC615B;
+        }
+        .card-border_left{
+            border: 1px solid #EC615B;
+            right: 10px;
+        }
+        .card{
+            border: none;
+        }
+        .card-title,
+        .card-text{
+            width: 300px;
+        }
+        .col-4{
+            padding-left: 15px;
+        }
+        .card-body{
+            padding-left: 0px;
+        }
+        .card-title_knews{
+            padding-left: 40px;
+        }
+        .email{
+            display: block;
+            margin-bottom: 20px;
+        }
+        .form{
+            padding-left: 15px;
+        }
+       
