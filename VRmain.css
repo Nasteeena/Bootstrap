@@ -74,6 +74,12 @@ body{
     width: 115px;
     height: 38px;
 }
+@media  screen and (min-width:768px) and (max-width:1053px) {
+    .header__button{
+        width: 110px;
+        height: 38px;
+    }
+}
 .main-block__body{
     display: flex;
     margin-top: 76px;
@@ -91,6 +97,8 @@ body{
     font-weight: 300;
     font-size: 20px;
     margin-top: 10px;
+    line-height: 32px;
+    font-family: Roboto;
 }
 .main-block-info__button{
     width: 270px;
@@ -104,6 +112,51 @@ body{
     width: 563.06px;
     height: 692.27px;
 }
+@media screen and (max-width: 767px){
+    .main-block-info__heading{
+        font-size: 40px;
+    }
+    .main-block-info__text{
+        font-size: 25px;
+        width: 400px;
+    }
+    .main-block-info__button{
+        width: 150px;
+        height: 84px;
+        font-size: 20px;
+        margin-top: 80px;
+        
+    }
+    .main-block__image{
+        display: none;
+    }
+    .main-block-info__heading{
+        width: 542px;
+        height: 216px;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 72px;
+    }
+    .main-block-info__text{
+        width: 487px;
+        height: 96px;
+        font-weight: 300;
+        font-size: 20px;
+        margin-top: 10px;
+        line-height: 32px;
+        font-family: Roboto;
+    }
+    .main-block-info__button{
+        width: 150px;
+        height: 60px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .main-block__image{
+        max-width: 450px;
+        height: 500px;
+    }
+}
 .menu-list{
     display: flex;
     padding-bottom: 80px
@@ -116,4 +169,17 @@ body{
     font-size: 20px;
     font-weight: 300, Light;
     font-family: Roboto;
+}
+@media screen and (max-width: 767px){
+    .menu-list{
+        display: flex;
+        padding-bottom: 50px;
+        padding-top: 50px
+    }
+    .menu-list__link{
+        color: #5222D0;
+        font-size: 17px;
+        font-weight: 300, Light;
+        font-family: Roboto;
+    }
 }
