@@ -1,0 +1,119 @@
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+li,
+ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: top; 
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+    font-family: Intro;
+}
+@font-face {
+    font-family: 'Intro';
+    src: url('Intro.woff2') format('woff2'),
+        url('Intro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    height: 100vh;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    font-family: Roboto; 
+}
+.wrapper{
+    min-height: 100vh;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+}
+._container{
+    max-width: 1096px; 
+    margin: 0px auto;
+    padding: 0px 15px;
+    box-sizing: content-box; 
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 89px;
+}
+.header__logo{
+    font-family: Intro;
+}
+.btn{
+    background-color: #5222D0; 
+    color: #FFFFFF;
+    border-radius: 100px;
+    font-family: Intro;
+}
+.header__button{
+    width: 115px;
+    height: 38px;
+}
+.main-block__body{
+    display: flex;
+    margin-top: 76px;
+}
+.main-block-info__heading{
+    width: 542px;
+    height: 216px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+}
+.main-block-info__text{
+    width: 487px;
+    height: 96px;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.main-block-info__button{
+    width: 270px;
+    height: 84px;
+    font-size: 35px;
+    margin-top: 30px;
+}
+.main-block__image{
+    background-image: url(image/background.png);
+    background-size: 1096.34px 666.65px;
+    width: 563.06px;
+    height: 692.27px;
+}
+.menu-list{
+    display: flex;
+    padding-bottom: 80px
+}
+.menu-list__item{
+    padding-right: 34px;
+}
+.menu-list__link{
+    color: #5222D0;
+    font-size: 20px;
+    font-weight: 300, Light;
+    font-family: Roboto;
+}
